@@ -58,6 +58,7 @@ let data = "ID, Name, Occupation, Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n6
 let rows = data.split("\n");
 
 console.log(rows);
+console.log(cell1, cell2, cell3, cell4);
 
 const csvString = "ID, Name, Occupation, Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor’s Assistant,26"
 for(const char of csvString ) {
